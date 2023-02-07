@@ -1,0 +1,23 @@
+{
+  "name": "messagely",
+  "version": "1.0.0",
+  "description": "38.1_Hashing_JWTs_Exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -i",
+    "start": "node server.js"
+  },
+  "author": "Andres Sanchez",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.1.0",
+    "express": "^4.18.2",
+    "express-cors": "0.0.3",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.3.3",
+    "supertest": "^4.0.2"
+  }
+}
